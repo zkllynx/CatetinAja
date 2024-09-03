@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "58037651807",
+    "project_id": "catetin-aja",
+    "storage_bucket": "catetin-aja.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:58037651807:android:4f54e97fdd87b2641c0eea",
+        "android_client_info": {
+          "package_name": "id.ac.polman.astra.kel10.catetinaja"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "58037651807-pd0fmlnrk7hlgqd8uon9ck787rnq0kpe.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "id.ac.polman.astra.kel10.catetinaja",
+            "certificate_hash": "6060d6abbf9d7d56293af74bcf8c752eae9a16aa"
+          }
+        },
+        {
+          "client_id": "58037651807-318ef2m24k355gibt80kopp6akilidk7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDKiioYuRAsQihnn95MkySxUawQHwdiWBM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "58037651807-318ef2m24k355gibt80kopp6akilidk7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

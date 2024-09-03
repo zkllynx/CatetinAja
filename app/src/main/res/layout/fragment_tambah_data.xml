@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:background="@color/blue_700">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:text="@string/tambah_data"
+            android:textStyle="bold"
+            android:textColor="@color/white"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="402dp"
+        android:background="@drawable/vie_main_bg"
+        android:orientation="vertical"
+        android:padding="20dp"
+        app:tabTextColor="@color/black">
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="265dp"
+            android:layout_height="20dp"
+            android:text="@string/tipe_kategori"
+            android:textColor="@color/blue_500"
+            android:textSize="16sp" />
+
+        <Spinner
+            android:id="@+id/ddl_jenis"
+            android:layout_width="257dp"
+            android:layout_height="40dp"
+            android:layout_margin="5dp"
+            android:layout_marginBottom="10dp"
+            android:background="@color/blue_500"
+            android:entries="@array/Spinner_items"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="265dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/nama_kategori"
+            android:textColor="@color/blue_500"
+            android:textSize="16sp" />
+
+        <Spinner
+            android:id="@+id/ddl_kategori"
+            android:layout_width="257dp"
+            android:layout_height="40dp"
+            android:layout_margin="5dp"
+            android:layout_marginBottom="10dp"
+            android:background="@color/blue_500"
+            android:entries="@array/kategori_items"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/txt_jumlah"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/field_bg"
+            android:hint="@string/nominal"
+            android:inputType="number"
+            android:paddingStart="20dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:textColor="@color/blue_500"
+            android:textColorHint="@color/grey"
+            android:textSize="16sp"
+            app:layout_constraintHorizontal_bias=".5"
+            app:layout_constraintVertical_bias=".3"
+            android:importantForAutofill="no"/>
+
+        <EditText
+            android:id="@+id/txt_keterangan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/field_bg"
+            android:hint="@string/description"
+            android:inputType="textCapSentences"
+            android:paddingStart="20dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:textColor="@color/blue_500"
+            android:textColorHint="@color/grey"
+            android:textSize="16sp"
+            app:layout_constraintHorizontal_bias=".5"
+            app:layout_constraintVertical_bias=".3"
+            android:importantForAutofill="no"/>
+
+        <Button
+            android:id="@+id/btn_simpan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button_bg"
+            android:text="@string/save"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</LinearLayout>
